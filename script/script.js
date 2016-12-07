@@ -69,7 +69,7 @@ $(document).ready(function(){
       // $(imdVotes).text('Imdb Votes : ' + data.imdbVotes);
 
       var imdbID = document.createElement('H4');
-      $(imdbID).text('Imdb Votes : ' + elem.imdbID);
+      $(imdbID).text('Imdb ID : ' + elem.imdbID);
 
       $(childDiv2).append(title);
       // $(childDiv2).append(actors);
